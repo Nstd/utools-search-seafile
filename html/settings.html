@@ -1,0 +1,48 @@
+<style type="text/css">
+    #root .card .card-header ul.nav { float: left; }
+    #root .card .card-header button { float: right; }
+    #root .card .card-header label { float: right; }
+    #root .card { border: none; }
+</style>
+<div id="setting-layer" class="card">
+<!--    <div class="card-header bg-transparent">-->
+<!--        <button id="export-config" type="button" class="btn btn-link" style="margin-right: 50px;">导出配置</button>-->
+<!--        <label id="import-config" style="margin-right: 0px; margin-top: 0.4rem;" data-toggle="tooltip" data-placement="bottom"-->
+<!--               data-html="true" title="如果要导入配置，请将 <u><b>.usac</b></u> 结尾的文件直接拖入Utools输入框"> 💡</label>-->
+<!--    </div>-->
+    <div class="card-body">
+        <div class="container data-source-panel">
+            <form id="form">
+                <div class="form-group row justify-content-md-center" id="add-layer">
+                    <div class="col-sm-3">
+                        <button type="button" class="btn btn-primary btn-block" name="add" id="add">添加</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <button type="button" class="btn btn-primary btn-block" name="save" id="save">保存</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div style="display: none;" id="line-template">
+    <div class="form-group row items">
+        <div class="col-sm-2">
+            <input class="form-control" type="text" placeholder="别名"/>
+        </div>
+        <div class="col-sm-7">
+            <input class="form-control" type="text" placeholder="路径"/>
+        </div>
+        <div class="col-sm-2">
+            <input class="form-control" type="text" placeholder="后缀，|分隔"/>
+        </div>
+        <div class="col-sm-1">
+            <button type="button" class="btn btn-danger">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-trash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0v-7z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,12 @@
+{
+  "name": "utools-search-seafile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "preload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nstd",
+  "license": "ISC",
+  "dependencies": {}
+}

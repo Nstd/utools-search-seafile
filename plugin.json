@@ -1,0 +1,20 @@
+{
+  "pluginName": "SeafileSearch",
+  "version": "0.0.1",
+  "description": "搜索Seafile中的文件",
+  "author": "Nstd",
+  "logo": "logo.png",
+  "preload": "preload.js",
+  "features": [
+    {
+      "code": "seafileSetting",
+      "explain": "Seafile搜索设置",
+      "cmds": ["Settings"]
+    },
+    {
+      "code": "seafileSearch",
+      "explain": "Seafile搜索",
+      "cmds": []
+    }
+  ]
+}
